@@ -4,11 +4,16 @@
 Writes the single word to $MAKEFUN_OUTPUT_DIR/entry.txt (default /output)
 and prints the same word to stdout. Deterministic: no network, no random
 numbers, no clock.
+
+The pick: "moist" -- the one word English speakers universally love to hate
+for the sound of it alone. Erase it and the language loses nothing but a
+shudder: cakes stay delicious, towels stay damp, and no one ever has to
+hear that word again.
 """
 
 import os
 
-WORD = "queue"
+WORD = "moist"
 
 
 def main() -> None:
